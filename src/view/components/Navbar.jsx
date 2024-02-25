@@ -12,7 +12,7 @@ const Navbar = () => {
   }, [location.pathname])
 
   return (
-    <nav className='bg-primary min-w-[10%]'>
+    <nav className='bg-primary min-w-[100%]'>
       <button
         className='text-4xl text-third p-2 md:hidden'
         onClick={() => setIsOpen(!isOpen)}
