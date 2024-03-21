@@ -1,15 +1,17 @@
-// import React from 'react'
-// import { Link } from 'react-router-dom'
+import React from 'react'
+import projectData from '../../utils/projectData'
 
-// const ProjectCard = ({ data }) => {
-//   const { id, img, description } = data
+const ProjectCard = () => {
+  return (
+        <>
+            {projectData.map((data, index) => (
+                <div key={index} to={`/projects/${data.id}`} className='m-2 border-2 border-secondary rounded-l rounded-md items-center flex flex-col'>
+                    <img className='h-[150px] w-[200px] object-center object-cover' src={data.img} alt={`Project Preview ${data.id}`} />
+                    <h2 className='text-lg text-fourth'>{data.description}</h2>
+                </div>
+            ))}
+        </>
+  )
+}
 
-//   return (
-//     <Link to={`/projects/${id}`} className='border-2 border-secondary rounded-l rounded-md items-center flex flex-col'>
-//       <img className='h-[150px] w-[200px] object-center object-cover' src={img} alt={`Project Preview ${id}`} />
-//       <h2 className='text-lg text-fourth'>{description}</h2>
-//     </Link>
-//   )
-// }
-
-// export default ProjectCard
+export default ProjectCard
