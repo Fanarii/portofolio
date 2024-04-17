@@ -1,16 +1,22 @@
 const projectData = [
   {
     id: 1,
-    name: 'website portfolio',
-    img: 'https://th.bing.com/th/id/OIP.TF9LZU05fb84hDnBRvwqQwEsD2?rs=1&pid=ImgDetMain',
-    description: 'lorem ipsum dolor sit amet'
+    name: 'Website Portfolio',
+    img: 'https://worldestimating.com/wp-content/uploads/2019/12/portfolio.jpg',
+    description: 'My currently website portfolio',
+    link: 'https://sigitfajar.netlify.app',
+    repository: 'https://github.com/Fanarii/portofolio',
+    techStack: ['React Js', 'Tailwind']
   },
 
   {
     id: 2,
-    name: 'cashier app',
-    img: 'https://th.bing.com/th/id/OIP.T1Od-IGuC8VwVrutjqsKYAHaGF?rs=1&pid=ImgDetMain',
-    description: 'lorem ipsum dolor sit amet'
+    name: 'Retail App',
+    img: 'https://specials-images.forbesimg.com/imageserve/5fb20cea5764e0806374bb73/960x0.jpg?fit=scale',
+    description: 'Used to manage the retail',
+    link: 'https://fanaretail.vercel.app',
+    repository: 'https://github.com/Fanarii/Retail-App',
+    techStack: ['Next Js', 'Redux', 'Prisma']
   }
 ]
 

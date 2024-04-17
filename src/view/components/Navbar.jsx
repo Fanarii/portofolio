@@ -21,7 +21,7 @@ const Navbar = () => {
       >
         ☰
       </button>
-      <a href='https://github.com/Fanarii'>
+      <a href='https://github.com/Fanarii' className='hidden md:flex'>
         <img src={github} alt="github" className='w-10 m-4'/>
       </a>
       <ul
@@ -48,14 +48,8 @@ const Navbar = () => {
           </Link>
           <div className={`rounded-lg bg-fourth w-7 h-1 ${isActive === '/projects' ? '' : 'hidden'}`}></div>
         </li>
-        <li className={`py-3 flex flex-col items-center justify-center ${isActive === '/blog' ? 'opacity-100' : 'opacity-50'}`}>
-          <Link className='px-4 py-2' to='/blog'>
-            Certificate
-          </Link>
-          <div className={`rounded-lg bg-fourth w-7 h-1 ${isActive === '/blog' ? '' : 'hidden'}`}></div>
-        </li>
       </ul>
-      <a href="https://www.linkedin.com/in/sigit-fajar-desfian-0a226a291/">
+      <a href="https://www.linkedin.com/in/sigit-fajar-desfian-0a226a291/" className='hidden md:flex'>
         <img src={linkedin} alt="" className='w-10 m-3'/>
       </a>
     </nav>
