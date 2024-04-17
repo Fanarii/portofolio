@@ -18,7 +18,7 @@ const Profile = () => {
           </h2>
           <p className='mt-1 font-md'>A Web Developer</p>
           <p className='mt-2'>I am currently looking for a company to start my career in, I can take position in either
-            back-end or front-end web developer, but I do prefer to work as a front-end web developer
+            back-end or front-end web developer.
           </p>
           <div className="p-5 md:p-0 md:mt-5">
             <Link to='/about' className="bg-third my-2 rounded-full p-3 text-xs text-white">

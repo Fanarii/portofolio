@@ -18,6 +18,7 @@ import sequelizeIcon from '../../icons/sequelize-svgrepo-com.svg'
 import webpackIcon from '../../icons/webpack-svgrepo-com.svg'
 import jestIcon from '../../icons/jest-snapshot-svgrepo-com.svg'
 import eslintIcon from '../../icons/eslint-svgrepo-com.svg'
+import nextIcon from '../../icons/next-js-svgrepo-com.svg'
 
 import TechCard from './TechCard'
 
@@ -60,6 +61,7 @@ const TechStack = () => {
             <TechCard label="Node.js" icon={nodejsIcon} link='https://nodejs.org/en' />
             <TechCard label="MySQL" icon={mysqlIcon} link='https://www.mysql.com/' />
             <TechCard label="PostgreSQL" icon={postgresqlIcon} link='https://www.postgresql.org/' />
+            <TechCard label="NextJs" icon={nextIcon} link='https://nextjs.org/' />
           </>
         )}
       </div>
