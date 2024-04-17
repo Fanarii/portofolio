@@ -22,7 +22,7 @@ const Navbar = () => {
         ☰
       </button>
       <a href='https://github.com/Fanarii'>
-        <img src={github} alt="github" className='w-10 m-3'/>
+        <img src={github} alt="github" className='w-10 m-4'/>
       </a>
       <ul
         className={`text-fourth text-1xl flex flex-col items-center 
